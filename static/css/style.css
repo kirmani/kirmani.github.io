@@ -589,3 +589,7 @@ section.dark {
   background-color: #333;
   color: #f5f5f5;
 }
+
+.centered {
+  text-align: center;
+}
