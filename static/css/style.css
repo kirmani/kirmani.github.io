@@ -571,3 +571,7 @@ ul.menu {
     display: block;
     padding: 12px;
 }
+
+.columns img {
+  max-width: 100%
+}
