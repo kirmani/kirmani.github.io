@@ -501,6 +501,19 @@ there.
     top: 12px;
 }
 
+.menu-icon .top.active {
+    left: 10px;
+    top: 6px;
+    transform: rotate(45deg);
+}
+.menu-icon .middle.active {
+    opacity: 0;
+}
+.menu-icon .bottom.active {
+    transform: rotate(-45deg);
+    top: 6px;
+}
+
 .speech-bubble {
     position: relative;
     background-color: #fefefe;
