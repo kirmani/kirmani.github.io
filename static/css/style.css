@@ -546,6 +546,10 @@ there.
     opacity: 1;
 }
 
+.menu ul {
+  margin: 0;
+}
+
 .menu li {
     display: block;
     text-transform: uppercase;
