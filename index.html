@@ -21,6 +21,7 @@
     <link rel="shortcut icon" href="/static/images/favicon.png" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/menu.js"></script>
+    <script type="text/javascript" src="/static/js/home.js"></script>
   </head>
   <body>
     <div class="story-menu">
@@ -41,7 +42,17 @@
     </div>
     <section id="hero" class="dark">
       <div class="container">
-        <h1 class="title">So where's my robot?</h1>
+        <div id="header" class="outer">
+          <video id="header-video" poster="/wp-content/uploads/2013/08/transparent.png" autoplay="autoplay" loop="loop" muted="" width="300" height="150">
+            <source src="/wp-content/uploads/2013/08/timescape.mp4" type="video/mp4" /><source src="/wp-content/uploads/2013/08/timescape.webm" type="video/webm" />
+          </video>
+          <div id="header-midwrapper">
+            <div class="inner">
+              <h1 class="title"></h1>
+            </div>
+          </div>
+          <div class="arrow bounce"></div>
+        </div>
       </div>
     </section>
     <section id="robotics" class="dark">
