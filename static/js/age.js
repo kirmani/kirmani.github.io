@@ -4,13 +4,13 @@
  *
  * Distributed under terms of the MIT license.
  */
-(function(){
+$(function(){
   var oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
   var firstDate = new Date(1995,03,01);
   var secondDate = new Date();
 
   var diffDays = Math.round(
     Math.abs((firstDate.getTime() - secondDate.getTime()) / (oneDay)));
-  document.getElementById('days').innerHTML = diffDays;
-  document.getElementById('age').innerHTML = Math.floor(diffDays / 365);
-})();
+  $('#days').innerHTML = diffDays;
+  $('#age').innerHTML = Math.floor(diffDays / 365);
+});
