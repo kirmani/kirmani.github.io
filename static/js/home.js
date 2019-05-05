@@ -21,5 +21,5 @@ var intro = [
 
 $(function(){
   var index = Math.floor(Math.random() * intro.length);
-  $('#header .title').text(intro[index].text);
+  $('#header h1').text(intro[index].text);
 });
