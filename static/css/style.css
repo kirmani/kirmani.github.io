@@ -554,3 +554,16 @@ there.
     border-radius: 4px;
     -webkit-border-radius: 4px;
 }
+
+.menu li a {
+    font-family: 'HelveticaNeue-Light', Arial, Helvetica, sans-serif;
+    color: #555 !important;
+    font-size: 12px;
+    -webkit-transition: 0s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+    display: block;
+    padding: 12px;
+}
