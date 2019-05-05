@@ -575,3 +575,7 @@ ul.menu {
 .columns img {
   max-width: 100%
 }
+
+.round {
+  border-radius: 50%;
+}
