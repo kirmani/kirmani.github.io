@@ -181,14 +181,12 @@ a {
   -o-transition: color 0.35s ease;
   transition: color 0.35s ease;
 }
-a:hover {
-  color: #ffb400;
-}
 a:focus {
   outline: thin dotted;
 }
 a:hover, a:active {
   outline: 0;
+  color: #ffb400;
 }
 
 /* Buttons
