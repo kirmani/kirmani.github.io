@@ -546,7 +546,7 @@ there.
     opacity: 1;
 }
 
-.menu ul {
+ul.menu {
   margin: 0;
 }
 
