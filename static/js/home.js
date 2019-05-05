@@ -19,7 +19,7 @@ var intro = [
   },
 ];
 
-$(document).ready(function() {
+$(function(){
   var index = Math.floor(Math.random() * intro.length);
   $('#header .title').text(intro[index].text);
 });
