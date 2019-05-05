@@ -5,7 +5,6 @@
  * Distributed under terms of the MIT license.
  */
 (function(){
-  'use strict';
   var oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
   var firstDate = new Date(1995,03,01);
   var secondDate = new Date();
