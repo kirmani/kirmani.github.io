@@ -188,6 +188,13 @@ span.circle {
   background-position: center center;
 }
 
+/* Tango. */
+#tango {
+  background-image: url('/static/images/tango.gif');
+  background-size: cover;
+  background-position: center center;
+}
+
 /* Footer. */
 #footer .avatar {
   width: 200px;
