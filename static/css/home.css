@@ -183,6 +183,13 @@ span.circle {
   }
 }
 
+/* Education. */
+#education {
+  background-image: url('/static/images/ut.png');
+  background-size: cover;
+  background-position: center center;
+}
+
 /* Footer. */
 #footer .avatar {
   width: 200px;
