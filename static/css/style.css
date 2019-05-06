@@ -575,6 +575,13 @@ ul.menu {
     padding: 12px;
 }
 
+.menu li a:hover {
+  color: #ff6651;
+}
+.menu li.current a {
+  color: #d73c2c;
+}
+
 .columns img {
   max-width: 100%
 }
