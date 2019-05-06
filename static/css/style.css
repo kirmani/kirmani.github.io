@@ -611,3 +611,12 @@ section.dark {
 .borderless {
   border: none;
 }
+
+span.tag {
+  vertical-align: middle;
+  color: #666;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
