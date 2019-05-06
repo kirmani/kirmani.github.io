@@ -590,6 +590,10 @@ ul.menu {
   border-radius: 50%;
 }
 
+section {
+  position: relative;
+}
+
 section.light {
   background-color: #f5f5f5;
   color: #333;
