@@ -17,11 +17,6 @@
   height: auto;
   position: absolute;
   overflow: hidden;
-  background:transparent url('/wp-content/uploads/2013/08/yosemite.jpg') no-repeat center center; 
-  -webkit-background-size:cover; 
-  -moz-background-size:cover; 
-  -o-background-size:cover; 
-  background-size:cover; 
 }
 #header.outer {
   display:flex;
