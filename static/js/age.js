@@ -11,6 +11,6 @@ $(function(){
 
   var diffDays = Math.round(
     Math.abs((firstDate.getTime() - secondDate.getTime()) / (oneDay)));
-  $('#days').innerHTML = diffDays;
-  $('#age').innerHTML = Math.floor(diffDays / 365);
+  $('#days').text(diffDays);
+  $('#age').text(Math.floor(diffDays / 365));
 });
