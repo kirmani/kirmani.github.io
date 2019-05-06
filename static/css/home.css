@@ -181,6 +181,12 @@ span.circle {
   }
 }
 
+/* Robotics. */
+.xlogo {
+  width: 40px;
+  margin-left: 6px;
+}
+
 /* Education. */
 #education {
   background-image: url('/static/images/ut.png');
