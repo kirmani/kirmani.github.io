@@ -564,7 +564,7 @@ ul.menu {
 
 .menu li a {
     font-family: 'HelveticaNeue-Light', Arial, Helvetica, sans-serif;
-    color: #555 !important;
+    color: #555;
     font-size: 12px;
     -webkit-transition: 0s;
     -moz-transition: 0s;
