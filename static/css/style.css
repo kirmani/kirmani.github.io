@@ -620,3 +620,7 @@ span.tag {
   display: inline-block;
   margin-bottom: 0.3rem;
 }
+
+#courses {
+  cursor: pointer;
+}
