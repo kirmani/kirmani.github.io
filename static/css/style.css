@@ -596,3 +596,7 @@ section.dark {
 .centered {
   text-align: center;
 }
+
+.borderless {
+  border: none;
+}
